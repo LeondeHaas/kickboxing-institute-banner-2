@@ -1,0 +1,368 @@
+@font-face {
+    font-family: 'Sunday';
+    src: url('/fonts/Sunday-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue Book';
+    src: url('/fonts/BebasNeueBook.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa-Trial';
+    src: url('/fonts/Nexa-Trial-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa-Trial';
+    src: url('/fonts/Nexa-Trial-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*foto banner*/
+.foto-banner {
+    width: auto;
+    height: 100%;
+}
+
+.sporten {
+    width: auto;
+    height: 120px;
+}
+
+/*main containers*/
+.main-container {
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    background-image: url(/Images/Gouden\ stippen\ achtergrond.png);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .background-sprinkles {
+    width: 100%;
+    height: 500px;
+    background-image: url(/Images/Sterren.png);
+    position: absolute;
+} */
+
+.left-main-container {
+    width: 40%;
+    height: 100%;
+}
+
+.right-main-container {
+    width: 60%;
+    height: 100%;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+/*right main container content*/
+.text-box-1 {
+    width: 100%;
+    font-size: 25px;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Sunday';
+}
+
+h1 {
+    padding-left: 150px;
+}
+
+.text-box-2 {
+    width: 100%;
+    font-size: 25px;
+    color: #fff;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Sunday';
+}
+
+h2 {
+    padding-right: 150px;
+    color: #d8af5a;
+}
+
+.container-actie {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 65px;
+    padding-top: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.actie-1 {
+    width: 350px;
+    height: auto;
+    font-size: 30px;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+} 
+
+.actie-2 {
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 45px;
+    color: #d8af5a;
+} 
+
+.actie-3 {
+    width: 350px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Nexa-Trial';
+    display: flex;
+    align-items: center;
+}
+
+
+.button {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button {
+    width: 45%;
+    background-color: #d8af5a;
+    color: #fff;
+    border: 0;
+    border-radius: 35px;
+    font-size: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    transition: 0.35s;
+    font-family: 'Bebas Neue Book';
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #d8af5a;
+    border: 3px solid #d8af5a;
+    transition: 0.35s;
+}
+
+
+/* media queries */
+
+@media (min-width:2500px) {
+    h1 {
+        padding-left: 350px;
+    }
+
+    h2 {
+        padding-right: 350px;
+    }
+}
+
+@media (min-width:2000px) {
+    .text-box-1 {
+        font-size: 60px!important;
+    }
+
+    .text-box-2 {
+        font-size: 55px!important;
+    }
+}
+
+@media (min-width:1500px) {
+    .main-container {
+        height: 700px;
+    }
+
+    .text-box-1 {
+        font-size: 40px;
+    }
+
+    .text-box-2 {
+        font-size: 40px;
+    }
+
+    .sporten {
+        height: 165px;
+    }
+
+    .actie-2 {
+        font-size: 110px;
+    }
+
+    .actie-3 {
+        font-size: 45px;
+    }
+
+    /* .container-actie {
+        padding-top: 0;
+        padding-bottom: 0;
+    } */
+}
+
+@media (min-width:1700px) {
+    .main-container {
+        height: 700px;
+    }
+
+    .container-actie {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+@media (min-width:2100px) {
+    .main-container {
+        height: 735px;
+    }
+}
+
+@media (min-width:900px) {
+      .foto-banner-responsive {
+        display: none;
+    }
+}
+
+@media (max-width:900px) {
+    .main-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-main-container {
+        width: 100%;
+    }
+
+    .right-main-container {
+        width: 100%;
+    }
+
+    .foto-banner {
+        height: 250px;
+    }
+
+    .foto-banner {
+        display: none;
+    }
+
+    .foto-banner-responsive {
+        width: 100%;
+        height: auto;
+        border-bottom-right-radius: 55%;
+    }
+
+    .container-actie {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .text-box-1 {
+        font-size: 40px;
+    }
+
+    .text-box-2 {
+        font-size: 35px;
+    }
+
+    .sporten {
+        height: 150px;
+    }
+}
+
+@media (max-width:650px) {
+    h1 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    h2 {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    button {
+        font-size: 20px;
+        width: 200px;
+    }
+
+    .main-container {
+        background-position: 20%;
+    }
+
+     .text-box-1 {
+        font-size: 30px;
+    }
+
+    .text-box-2 {
+        font-size: 20px;
+    }
+
+    .sporten {
+        height: 125px;
+    }
+
+    .actie-3 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:525px) {
+    .container-actie {
+        flex-direction: column;
+        height: auto;
+    }
+
+     .actie-1, .actie-2, .actie-3 {
+        width: auto;
+    }
+
+    .actie-3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width:450px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .actie-3 {
+        font-size: 20px;
+    }
+}
