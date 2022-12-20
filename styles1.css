@@ -1,0 +1,158 @@
+@media (min-width:1500px) {
+    .text-box-1 {
+        font-size: 40px;
+    }
+
+    .text-box-2 {
+        font-size: 40px;
+    }
+
+    .sporten {
+        height: 165px;
+    }
+
+    .actie-2 {
+        font-size: 110px;
+    }
+
+    .actie-3 {
+        font-size: 45px;
+    }
+
+    /* .container-actie {
+        padding-top: 0;
+        padding-bottom: 0;
+    } */
+}
+
+@media (min-width:1700px) {
+    .container-actie {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+@media (min-width:2100px) {
+    .main-container {
+        height: 800px;
+    }
+}
+
+@media (min-width:900px) {
+      .foto-banner-responsive {
+        display: none;
+    }
+}
+
+@media (max-width:900px) {
+    .main-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-main-container {
+        width: 100%;
+    }
+
+    .right-main-container {
+        width: 100%;
+    }
+
+    .foto-banner {
+        height: 250px;
+    }
+
+    .foto-banner {
+        display: none;
+    }
+
+    .foto-banner-responsive {
+        width: 100%;
+        height: auto;
+        border-bottom-right-radius: 55%;
+    }
+
+    .container-actie {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .text-box-1 {
+        font-size: 40px;
+    }
+
+    .text-box-2 {
+        font-size: 35px;
+    }
+
+    .sporten {
+        height: 150px;
+    }
+}
+
+@media (max-width:650px) {
+    h1 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    h2 {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    button {
+        font-size: 20px;
+        width: 200px;
+    }
+
+    .main-container {
+        background-position: 20%;
+    }
+
+     .text-box-1 {
+        font-size: 30px;
+    }
+
+    .text-box-2 {
+        font-size: 20px;
+    }
+
+    .sporten {
+        height: 125px;
+    }
+
+    .actie-3 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:525px) {
+    .container-actie {
+        flex-direction: column;
+        height: auto;
+    }
+
+     .actie-1, .actie-2, .actie-3 {
+        width: auto;
+    }
+
+    .actie-3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width:450px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .actie-3 {
+        font-size: 20px;
+    }
+}
