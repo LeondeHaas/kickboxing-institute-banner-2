@@ -448,7 +448,7 @@ padding-right: 150px;
     }
 
     #sectie-banner-1 .text-box-1 h1 {
-        font-size: 75px !important;
+        font-size: 65px !important;
         text-align: center;
         padding-left: 0;
     }
@@ -460,7 +460,7 @@ padding-right: 150px;
     }
 
     #sectie-banner-1 .text-box-1 h1 {
-        font-size: 55px !important;
+        font-size: 47px !important;
     }
  
 
@@ -691,7 +691,6 @@ padding-right: 150px;
     width: 30px;
     right: -20px;
     bottom: 35px;
-    transform: rotate(-10deg);
 }
 }
 
@@ -718,13 +717,21 @@ padding-right: 150px;
     }
 }
 
-@media (max-width:316px) {
+@media (max-width:300px) {
     .button:after {
     width: 33px;
     bottom: 80px;
     right: 25px;
     transform: rotate(-25deg);
     }
+}
+
+@media (max-width:300px) {
+    .text-box-1 h1:after {
+    right: 30px;
+    bottom: 58px;
+    transform: rotate(-40deg);
+}
 }
 
 @media (max-width:768px){
