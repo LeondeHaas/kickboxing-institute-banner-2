@@ -8,7 +8,7 @@
 
 
 @font-face {
-    font-family:'Sunday';
+    font-family: 'Sunday';
     src: url('/wp-content/uploads/fonts/Sunday-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
@@ -40,21 +40,18 @@
 }
 
 
-html body.et-db #et-boc .et-l 
-#sectie-banner-1.et_pb_section  .text-box-1 h1 ,
-html body.et-db #et-boc .et-l 
-#sectie-banner-1.et_pb_section  .text-box-2 h2{
-    font-family:'Nexa Rust Script L0' !important;
+html body.et-db #et-boc .et-l #sectie-banner-1.et_pb_section .text-box-1 h1,
+html body.et-db #et-boc .et-l #sectie-banner-1.et_pb_section .text-box-2 h2 {
+    font-family: 'Nexa Rust Script L0' !important;
 }
 
 
-html body.et-db #et-boc .et-l 
-#sectie-banner-1.et_pb_section  div.actie-3 h3{
+html body.et-db #et-boc .et-l #sectie-banner-1.et_pb_section div.actie-3 h3 {
     font-family: 'Nexa-Trial' !important;
 }
-html body.et-db #et-boc .et-l 
-#sectie-banner-1.et_pb_section  div.button button{
-font-family: 'Bebas Neue Book' !important;
+
+html body.et-db #et-boc .et-l #sectie-banner-1.et_pb_section div.button button {
+    font-family: 'Bebas Neue Book' !important;
 
 }
 
@@ -65,11 +62,13 @@ font-family: 'Bebas Neue Book' !important;
     margin: 0;
     padding: 0;
 }
+
 /*foto banner*/
-#et-boc .et-l img.foto-banner  {   
+#et-boc .et-l img.foto-banner {
     max-width: inherit;
     height: 100%;
 }
+
 #sectie-banner-1 .main-container .sterren-afbeelding {
     /* background-image: url(https://kickboxing-institute.nl/wp-content/uploads/2022/12/Sterren-1.png); */
     position: absolute;
@@ -94,10 +93,10 @@ font-family: 'Bebas Neue Book' !important;
 }
 
 /* .background-sprinkles {
-    width: 100%;
-    height: 500px;
-    background-image: url(/Images/Sterren.png);
-    position: absolute;
+width: 100%;
+height: 500px;
+background-image: url(/Images/Sterren.png);
+position: absolute;
 } */
 
 .left-main-container {
@@ -112,23 +111,28 @@ font-family: 'Bebas Neue Book' !important;
     padding-bottom: 45px;
 }
 
-/*right main container content*/ html body.et-db #et-boc .et-l 
-#sectie-banner-1.et_pb_section .text-box-1 h1 {
+/*right main container content*/
+ html body.et-db #et-boc .et-l .et_pb_section #banner-green-div  .text-box-1 h1 {
     width: 100%;
-    font-size: 25px;
+    
     color: #fff;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
     font-family: 'Sunday' !important;
 }
+#banner-green-div  .text-box-1 h1{
+font-size: 25px;
+}
+
+
 
 /* h1 {
-    padding-left: 150px;
+padding-left: 150px;
 }
 
 h2 {
-    padding-right: 150px;
+padding-right: 150px;
 } */
 
 #sectie-banner-1 .text-box-2 {
@@ -160,7 +164,7 @@ h2 {
     color: #fff;
     justify-content: center;
     display: flex;
-} 
+}
 
 #sectie-banner-1 .actie-2 {
     height: auto;
@@ -169,7 +173,7 @@ h2 {
     display: flex;
     font-size: 45px;
     color: #d8af5a;
-} 
+}
 
 .actie-3 {
     width: 450px;
@@ -216,21 +220,22 @@ h2 {
 
 /* media queries */
 @media (min-width:2000px) {
-    #sectie-banner-1 .text-box-1 h1 {
-        font-size: 140px!important;
+    .et_pb_section #banner-green-div  .text-box-1 h1 {
+        font-size: 140px ;
     }
 
     #sectie-banner-1 .text-box-2 h2 {
-        font-size: 165px!important;
+        font-size: 165px !important;
         padding-right: 35%;
+        padding-top:20px;
     }
 
-      #sectie-banner-1 .container-actie .actie-3 h3 {
-        font-size: 75px!important;
+    #sectie-banner-1 .container-actie .actie-3 h3 {
+        font-size: 75px !important;
     }
 
     #sectie-banner-1 .container-actie .actie-2 h3 {
-        font-size: 150px!important;
+        font-size: 150px !important;
     }
 }
 
@@ -245,22 +250,22 @@ h2 {
         height: 575px;
     }
 
-     #sectie-banner-1 .text-box-1 h1 {
-        font-size: 70px!important;
-        padding-left: 20%!important;
+    .et_pb_section #banner-green-div  .text-box-1 h1 {
+        font-size: 70px;      
+        margin-left:15%;
     }
 
     #sectie-banner-1 .text-box-2 h2 {
-        font-size: 80px!important;
+        font-size: 80px !important;
         padding-right: 25%;
     }
 
     #sectie-banner-1 .container-actie .actie-3 h3 {
-        font-size: 55px!important;
+        font-size: 55px !important;
     }
 
     #sectie-banner-1 .container-actie .actie-2 h3 {
-        font-size: 80px!important;
+        font-size: 80px !important;
     }
 }
 
@@ -270,117 +275,117 @@ h2 {
     }
 
     #sectie-banner-1 .actie-1 {
-    width: 200px;
-}
+        width: 200px;
+    }
 
     #sectie-banner-1 .container-actie .actie-3 h3 {
-    font-size: 40px!important;
-}
+        font-size: 40px !important;
+    }
 
 
     #sectie-banner-1 .container-actie .actie-3 {
-    width: 250px;
-}
-
-#sectie-banner-1 .main-container .right-main-container .button {
-    font-size: 35px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-#sectie-banner-1 .text-box-2 h2 {
-    font-size: 80px!important;
-    padding-right: 5%;
-}
-}
-
-@media (max-width:1410px) {
-  #sectie-banner-1 .main-container {
-        height: 375px;
+        width: 250px;
     }
 
-     #sectie-banner-1 .text-box-1 h1 {
-        font-size: 50px!important;
-        padding-left: 20%!important;
+    #sectie-banner-1 .main-container .right-main-container .button {
+        font-size: 35px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     #sectie-banner-1 .text-box-2 h2 {
-        font-size: 65px!important;
-        padding-right: 25%!important;
+        font-size: 80px !important;
+        padding-right: 5%;
+    }
+}
+
+@media (max-width:1410px) {
+    #sectie-banner-1 .main-container {
+        height: 375px;
+    }
+
+    .et_pb_section #banner-green-div .text-box-1 h1 {
+        font-size: 41px;
+        padding-left: 20% ;
+    }
+
+    #sectie-banner-1 .text-box-2 h2 {
+        font-size: 65px !important;
+        padding-right: 25% !important;
     }
 
     #sectie-banner-1 .main-container .right-main-container {
         padding-top: 20px;
     }
 
-     #sectie-banner-1 .container-actie {
-    padding-top: 0;
-    padding-bottom: 0;
-}
+    #sectie-banner-1 .container-actie {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 
     #sectie-banner-1 .actie-1 {
-    width: 165px;
-}
+        width: 165px;
+    }
 
-#sectie-banner-1 .container-actie .actie-3 h3 {
-    font-size: 30px!important;
-}
+    #sectie-banner-1 .container-actie .actie-3 h3 {
+        font-size: 30px !important;
+    }
 
-#sectie-banner-1 .container-actie .actie-2 h3 {
-    font-size: 60px!important;
-}
+    #sectie-banner-1 .container-actie .actie-2 h3 {
+        font-size: 60px !important;
+    }
 
-#sectie-banner-1 .main-container .right-main-container .button {
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 15px;
-}
+    #sectie-banner-1 .main-container .right-main-container .button {
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 15px;
+    }
 }
 
 @media (max-width:1070px) {
-#sectie-banner-1 .text-box-1 h1 {
-        font-size: 35px!important;
+     .et_pb_section #banner-green-div #sectie-banner-1 .text-box-1 h1 {
+        font-size: 35px ;
     }
 
     #sectie-banner-1 .text-box-2 h2 {
-        font-size: 40px!important;
+        font-size: 40px !important;
     }
 
     #sectie-banner-1 .main-container {
-    height: 280px;
-}
+        height: 310px;
+    }
 
-#sectie-banner-1 .actie-1 {
-    width: 125px;
-}
+    #sectie-banner-1 .actie-1 {
+        width: 125px;
+    }
 
-#sectie-banner-1 .container-actie .actie-3 h3 {
-    font-size: 22px!important;
-}
+    #sectie-banner-1 .container-actie .actie-3 h3 {
+        font-size: 22px !important;
+    }
 
-#sectie-banner-1 .container-actie .actie-3 {
-    width: 150px;
-}
+    #sectie-banner-1 .container-actie .actie-3 {
+        width: 150px;
+    }
 
-#sectie-banner-1 .main-container .right-main-container .button {
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 7px!important;
-    padding-bottom: 7px!important;
-    margin-top: 15px;
-}
+    #sectie-banner-1 .main-container .right-main-container .button {
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 7px !important;
+        padding-bottom: 7px !important;
+        margin-top: 15px;
+    }
 
-#sectie-banner-1 .main-container .right-main-container .button {
-    font-size: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
+    #sectie-banner-1 .main-container .right-main-container .button {
+        font-size: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }
 
 @media (min-width:700px) {
-      .foto-banner-responsive {
+    .foto-banner-responsive {
         display: none;
     }
 }
@@ -405,103 +410,319 @@ h2 {
         padding-bottom: 40px;
     }
 
-      #sectie-banner-1 .main-container .left-main-container{
-       width: 100%;
+    #sectie-banner-1 .main-container .left-main-container {
+        width: 100%;
     }
 
-    #sectie-banner-1 .main-container .right-main-container{
-       width: 100%;
-       padding-bottom: 100px;
+    #sectie-banner-1 .main-container .right-main-container {
+        width: 100%;
+        padding-bottom: 100px;
     }
 
     #sectie-banner-1 .main-container {
         flex-direction: column;
-        height: auto!important;
+        height: auto !important;
         background-position: 20%;
     }
 
     #sectie-banner-1 .text-box-2 h2 {
-    font-size: 95px!important;
-    padding-right: 15%!important;
-}
+        font-size: 95px !important;
+        padding-right: 15% !important;
+    }
 
-#sectie-banner-1 .text-box-1 h1 {
-    font-size: 100px!important;
-}
+    .et_pb_section #banner-green-div .text-box-1 h1 {
+        font-size: 100px ;
+    }
 
-#sectie-banner-1 .main-container .right-main-container .button {
-    padding-left: 100px;
-    padding-right: 100px;
-}
+    #sectie-banner-1 .main-container .right-main-container .button {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }
 
 @media (max-width:755px) {
-   #sectie-banner-1 .text-box-2 h2 {
-    font-size: 75px!important;
-    text-align: center;
-    padding-right: 0!important;
-}
+    #sectie-banner-1 .text-box-2 h2 {
+        font-size: 75px !important;
+        text-align: center;
+        padding-right: 0 !important;
+    }
 
-#sectie-banner-1 .text-box-1 h1 {
-    font-size: 75px!important;
-    text-align: center;
-    padding-left: 0!important;
-}
+    #sectie-banner-1 .text-box-1 h1 {
+        font-size: 75px !important;
+        text-align: center;
+        padding-left: 0;
+    }
 }
 
 @media (max-width:540px) {
-   #sectie-banner-1 .text-box-2 h2 {
-    font-size: 55px!important;
-}
+    #sectie-banner-1 .text-box-2 h2 {
+        font-size: 55px !important;
+    }
 
-#sectie-banner-1 .text-box-1 h1 {
-    font-size: 55px!important;
-}
+    #sectie-banner-1 .text-box-1 h1 {
+        font-size: 55px !important;
+    }
+ 
 
-#sectie-banner-1 .container-actie {
-    flex-direction: column;
-}
+    #sectie-banner-1 .container-actie {
+        flex-direction: column;
+    }
 
-#sectie-banner-1 .container-actie .actie-3 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
+    #sectie-banner-1 .container-actie .actie-3 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
-#sectie-banner-1 .main-container .right-main-container .button {
-    padding-left: 55px;
-    padding-right: 55px;
-}
+    #sectie-banner-1 .main-container .right-main-container .button {
+        padding-left: 55px;
+        padding-right: 55px;
+    }
 
-#sectie-banner-1 .container-actie .actie-1 {
-    margin-left: auto;
-    margin-right: auto;
-}
+    #sectie-banner-1 .container-actie .actie-1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-#sectie-banner-1 .main-container .right-main-container {
-    padding-bottom: 40px;
-}
+    #sectie-banner-1 .main-container .right-main-container {
+        padding-bottom: 40px;
+    }
 
 }
 
 @media (max-width:400px) {
-   #sectie-banner-1 .text-box-2 h2 {
-    font-size: 35px!important;
+    #sectie-banner-1 .text-box-2 h2 {
+        font-size: 35px !important;
+    }
+
+    #sectie-banner-1 .text-box-1 h1 {
+        font-size: 35px !important;
+    }
+
+    #sectie-banner-1 .main-container .right-main-container .button {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 30px;
+    }
+
+    #sectie-banner-1 .container-actie .actie-1 {
+        width: 180px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
-#sectie-banner-1 .text-box-1 h1 {
-    font-size: 35px!important;
+.text-box-1 h1 {
+    position: relative;
+    display: inline;
+    padding-left: 0px;
+}
+.et-db #et-boc .et-l .et_pb_section #banner-green-div .text-box-2 h2{
+    padding-top:20px;
 }
 
-#sectie-banner-1 .main-container .right-main-container .button {
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 30px;
+ .text-box-1 h1:before {
+    content: url(https://kickboxing-institute.nl/wp-content/uploads/2022/12/ki-ster-before-3.svg);
+    width: 115px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: -75px;
 }
 
-#sectie-banner-1 .container-actie .actie-1 {
-    width: 180px;
-    margin-left: auto;
-    margin-right: auto;
+.text-box-1 h1:after{
+    content: url(https://kickboxing-institute.nl/wp-content/uploads/2022/12/ki-sterren-4.svg);
+    width: 62px;
+    display: inline-block;
+    position: absolute;
+    right: -60px;
+    bottom: 10px;
+}
+
+.button:after{
+    content: url(https://kickboxing-institute.nl/wp-content/uploads/2022/12/ki-sterren-2-1.svg);
+    width: 62px;
+    display: inline-block;
+    position: absolute;
+    bottom: 30px;
+    right: 70px;
+    pointer-events: none;
+}
+/* AANMELDEN button responsive */
+
+@media (min-width:1500px) {
+    .button:after{
+    right: 120px;
 }
 }
+
+@media (min-width:1800px) {
+  .button:after {
+    right: 170px;
+    bottom: 20px;
+    width: 85px;
+}
+}
+
+@media (min-width:2000px) {
+ .button:after {
+    right: 235px;
+}
+}
+
+@media (min-width:2300px) {
+ .button:after {
+    right: 300px;
+    bottom: 85px;
+    }
+}
+
+@media (min-width:2500px) {
+ .button:after {
+    right: 385px;
+}
+}
+
+@media (max-width:1410px) {
+    .et-db #et-boc .et-l .et_pb_section #banner-green-div .text-box-1 h1:before {
+      
+        left: -67px;
+        bottom: 0px;
+        transform: rotate(65deg);
+        width: 80px;
+    }
+    html body.et-db #et-boc .et-l #sectie-banner-1.et_pb_section .text-box-1 h1 {
+
+        padding-left: 0px;
+        
+    }
+
+    .text-box-1 h1:after{
+    width: 40px;
+    right: -40px;
+    bottom: -12px;
+}
+
+.button:after {
+    right: 150px;
+}
+
+}
+
+@media (max-width:1375px) {
+    .button:after {
+    right: 100px;
+}
+}
+
+@media (max-width:1200px) {
+    .button:after {
+    right: 50px;
+}
+}
+
+@media (max-width:1070px) {
+    .button:after {
+    right: 75px;
+    width: 50px;
+    bottom: 25px;
+}
+}
+
+@media (max-width:975px) {
+    .button:after {
+    right: 40px;
+}
+}
+
+@media (max-width:800px) {
+     .button:after {
+        right: 135px;
+        width: 55px;
+        bottom: 80px;
+    }
+}
+
+@media (max-width:768px) {
+     .button:after {
+        right: 100px;
+    }
+}
+
+@media (max-width:700px) {
+     .button:after {
+        right: 70px;
+    }
+}
+
+@media (max-width:640px) {
+    .button:after {
+    right: 50px;
+    width: 45px;
+    bottom: 85px;
+}
+}
+
+@media (max-width:600px) {
+    .button:after {
+    right: 30px;
+}
+}
+
+@media (max-width:540px) {
+    .button:after {
+    right: 70px;
+    bottom: 25px;
+}
+}
+
+@media (max-width:525px) {
+    .button:after {
+    right: 45px;
+}
+}
+
+@media (max-width:470px) {
+    .button:after {
+        right: 25px;
+    }
+}
+
+@media (max-width:430px) {
+    .button:after {
+        right: 5px;
+    }
+}
+
+@media (max-width:350px) {
+    .button:after {
+        width: 35px;
+        bottom: 30px;
+    }
+}
+
+@media (max-width:316px) {
+    .button:after {
+    width: 33px;
+    bottom: 80px;
+    right: 25px;
+    transform: rotate(-25deg);
+    }
+}
+
+@media (max-width:768px){
+    html body.et-db #et-boc .et-l #sectie-banner-1.et_pb_section .text-box-1 h1{
+        text-align:left !important;
+        font-size:90px ;
+    }
+
+}
+
+@media (max-width:540px){
+    .et-db #et-boc .et-l .et_pb_section #banner-green-div .text-box-1 h1:before {
+        width:70px;
+        left:-50px;
+
+    }
+}
+/* end */
